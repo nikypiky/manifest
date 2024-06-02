@@ -2,7 +2,7 @@
     background-color: black;
     color: white;
   }
-  
+
   body {
     margin: 0;
     display: flex;
@@ -11,11 +11,11 @@
     justify-content: center;
     min-height: 100vh;
   }
-  
+
   .top {
     text-align: center;
   }
-  
+
   h1 {
     font-size: 60px;
     margin: 40px 0px -30px 0px;
@@ -27,13 +27,13 @@
     padding: 20px;
     margin: 20px;
   }
-  
+
   .hero-body {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .hero-text {
     max-width: 1300px; /* Adjust the max-width as needed */
     margin: 30px 0px 100px 0px; /* Center the hero-text horizontally and add bottom margin */
@@ -49,7 +49,7 @@
     max-width: 40%; /* Ensure the image is responsive */
     align-items: center; /* This property may not be needed */
   }
-  
+
 .entrie-image {
     max-width: 60%;
 }
@@ -61,7 +61,7 @@
     font-size: 30px;
     margin: 30px;
   }
-  
+
   .manifesto-links li {
     margin-bottom: 10px;
   }
@@ -69,16 +69,3 @@
   .numbers {
     margin: 30px 0px -20px 0px;
   }
-  
-    .back-link {
-	position: absolute;
-	top: 20; /* Adjust distance from top as needed */
-	left: 30px; /* Adjust distance from left as needed */
-	padding: 8px 12px;
-	/* border: 1px solid #ccc; Example border */
-	border-radius: 4px;
-	/* text-decoration: none; Remove default underline */
-	color: #ffffff; /* Example text color */
-	font-size: 40px;
-  }
-  
