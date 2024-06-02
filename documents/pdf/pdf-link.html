@@ -3,24 +3,18 @@
 <head>
   <title>Cookbook</title>
   <style>
-    .page-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
+.page-container {
+  columns: 2;  /* Create two columns */
+  column-gap: 20px; /* Add space between columns */
+}
 
-    .page {
-      width: 48%;
-      max-width: 400px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
+.page {
+  width: 100%; /* Make images fit the column width */
+  margin-bottom: 20px; /* Add space below each image */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  break-inside: avoid; /* Prevent images from breaking across columns */
+}
 
-    @media (max-width: 768px) {
-      .page {
-        width: 100%;
-      }
-    }
   </style>
 </head>
 <body>
