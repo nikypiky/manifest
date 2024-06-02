@@ -3,17 +3,19 @@
 <head>
   <title>Cookbook</title>
   <style>
+	
 .page-container {
-  columns: 2;  /* Create two columns */
-  column-gap: 20px; /* Add space between columns */
+  display: flex;         /* Use Flexbox */
+  flex-wrap: wrap;      /* Allow wrapping to next line */
+  justify-content: center;  /* Center the content horizontally */
 }
 
 .page {
-  width: 100%; /* Make images fit the column width */
-  margin-bottom: 20px; /* Add space below each image */
+  width: 48%;            /* Adjust as needed for spacing */
+  margin: 1%;           /* Add margin for spacing */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  break-inside: avoid; /* Prevent images from breaking across columns */
 }
+
 
   </style>
 </head>
